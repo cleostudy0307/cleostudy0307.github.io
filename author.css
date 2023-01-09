@@ -233,7 +233,7 @@ skills-list div a {
   margin-top: 50px;
 }
 
-.porto {
+.work {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -331,12 +331,7 @@ skills-list div a {
   transform: translateY(-5px);
 }
 
-.btn.btn-cv {
-  display: inline-block;
-  background: #0d94c4;
-}
-
-.btn-kirim {
+.btn-kirim{
   background: #0d94c4;
   border-radius: 100;
 }
@@ -354,8 +349,8 @@ form textarea {
   padding: 15px;
   margin: 15px 0;
   color: #fff;
-  font-size: 18px;
-  border-radius: 6px;
+  font-size:18px
+  border-radius: 10%;
 }
 
 form .btn-kirim {

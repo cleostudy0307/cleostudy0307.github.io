@@ -331,7 +331,7 @@ skills-list div a {
   transform: translateY(-5px);
 }
 
-.btn-kirim{
+.btn-kirim {
   background: #0d94c4;
   border-radius: 100;
 }
@@ -349,7 +349,7 @@ form textarea {
   padding: 15px;
   margin: 15px 0;
   color: #fff;
-  font-size:18px
+  font-size: 18px;
   border-radius: 10%;
 }
 

@@ -32,6 +32,12 @@
   flex-basis: 40%;
 }
 
+#chatbot {
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
 section {
   padding-top: 5rem;
 }

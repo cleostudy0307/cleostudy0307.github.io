@@ -24,6 +24,14 @@
   text-align: center;
 }
 
+.contact-left {
+  flex-basis: 60%;
+}
+
+.contact-right {
+  flex-basis: 40%;
+}
+
 section {
   padding-top: 5rem;
 }

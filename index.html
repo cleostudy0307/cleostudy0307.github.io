@@ -589,42 +589,56 @@
     <!-- START CONTACT -->
     <section id="contact">
       <div class="container-md" data-aos="zoom-out" data-aos-duration="1500">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact Cleo!</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <!-- ALERT -->
-            <div class="alert alert-dismissible fade show d-none my-alert" style="background-color: #d8f0b7" role="alert">
-              <strong>Kritik dan Saran kamu berhasil terkirim!</strong> Terima kasih atas kritik dan sarannya Cellas.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <div class="row">
+          <div class="contact-left">
+            <div class="row text-center mb-3">
+              <div class="col">
+                <h2>Contact Cleo!</h2>
+              </div>
             </div>
-            <!-- END ALERT  -->
-            <form name="cleo-contact-form">
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <!-- ALERT -->
+                <div class="alert alert-dismissible fade show d-none my-alert" style="background-color: #d8f0b7" role="alert">
+                  <strong>Kritik dan Saran kamu berhasil terkirim!</strong> Terima kasih atas kritik dan sarannya Cellas.
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <!-- END ALERT  -->
+                <form name="cleo-contact-form">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="name" name="email" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="kritikdansaran" class="form-label">Kritik dan Saran</label>
+                    <textarea class="form-control" id="kritikdansaran" rows="3" name="kritikdansaran"></textarea>
+                  </div>
+                  <!-- TOMBOL KIRIM AKU -->
+                  <button type="submit" class="btn btn-submit" style="background-color: #d8f0b7">Kirim Aku</button>
+                  <!-- END TOMBOL KIRIM AKU -->
+                  <!-- TOMBOL LOADING -->
+                  <button class="btn btn-loading d-none" style="background-color: #d8f0b7" type="button" disabled>
+                    <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                    Loading...
+                  </button>
+                  <!-- END TOMBOL LOADING -->
+                </form>
               </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="name" name="email" />
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <div class="row text-center mb-3">
+              <div class="col">
+                <h2>Yuk Kunjungi ChatBot Cleo!</h2>
+                <br />
+                <a href="https://app.smojo.org/devinadamara/bot"><img src="chatbot.png" alt="chatbot" width="200" /></a>
               </div>
-              <div class="mb-3">
-                <label for="kritikdansaran" class="form-label">Kritik dan Saran</label>
-                <textarea class="form-control" id="kritikdansaran" rows="3" name="kritikdansaran"></textarea>
-              </div>
-              <!-- TOMBOL KIRIM AKU -->
-              <button type="submit" class="btn btn-submit" style="background-color: #d8f0b7">Kirim Aku</button>
-              <!-- END TOMBOL KIRIM AKU -->
-              <!-- TOMBOL LOADING -->
-              <button class="btn btn-loading d-none" style="background-color: #d8f0b7" type="button" disabled>
-                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
-              <!-- END TOMBOL LOADING -->
-            </form>
+            </div>
           </div>
         </div>
       </div>

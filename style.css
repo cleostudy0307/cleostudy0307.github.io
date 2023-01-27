@@ -30,6 +30,7 @@
 
 .contact-right {
   flex-basis: 40%;
+  margin-top: 30px;
 }
 
 #chatbot {
